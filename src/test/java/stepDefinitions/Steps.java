@@ -112,9 +112,6 @@ public class Steps{
 	    acp.passwordvalidate(pwd);
 	    acp.confirmPassword(cpwd);
 	}
-	
-
-
 
 	@And("user select terms and conditions checkbox")
 	public void user_select_terms_and_conditions_checkbox() {
