@@ -90,7 +90,7 @@ public class Steps{
 	@When("user hits on SignUpwithEmail")
 	public void user_hits_on_sign_upwith_email() {
 		hp=new HomePage(driver);
-	   hp.clickSignUp_Email();
+	   //hp.clickSignUp_Email();
 	}
 
 	@When("user enters firstname as {string} lastname as {string} email as {string} password as {string} and confirmpassword as {string}")

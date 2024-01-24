@@ -20,9 +20,10 @@ public AccountCreationPage(WebDriver driver)
 
 //for elements
 
-@FindBy(xpath="//a[@href='https://dashboard.staging.dolbyio.com/signup/']//span]")
-WebElement btnsignup;
+//@FindBy(xpath="//a[@href='https://dashboard.staging.dolbyio.com/signup/']//span]")
+//WebElement btnsignup;
 
+@FindBy(xpath="//span[normalize-space()='TRY FOR FREE']") WebElement btnsignup;
 @FindBy(xpath="//button[@id='emailOption']")
 WebElement btnSignUpEmail;
 

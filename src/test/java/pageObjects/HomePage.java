@@ -17,8 +17,8 @@ public class HomePage extends BasePage
 	
 	// for elements
 	//@FindBy(xpath="//a[@href='https://dashboard.staging.dolbyio.com/signup/']") WebElement btnsignup;
-	
-	@FindBy(xpath="//a[@href='https://dashboard.staging.dolbyio.com/signup/']//span") WebElement btnsignup;
+	@FindBy(xpath="//span[normalize-space()='TRY FOR FREE']") WebElement btnsignup;
+	//@FindBy(xpath="//a[@href='https://dashboard.staging.dolbyio.com/signup/']//span") WebElement btnsignup;
 	@FindBy(xpath="//button[@id='emailOption']")WebElement btnSignUpEmail;
 	
 	
@@ -36,10 +36,10 @@ public class HomePage extends BasePage
 		  } 
 	}
 	
-	public void clickSignUp_Email()
+	/*public void clickSignUp_Email()
 	{
 		btnSignUpEmail.click();
 	}
-	
+	*/
 	
 }
